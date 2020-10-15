@@ -12,8 +12,8 @@ RUN npm install --only=prod && \
 
 
 RUN npm install https://github.com/vrayulu/nodebb-plugin-sunbird-oidc.git
-RUN npm install https://github.com/ankitv89/nodebb-plugin-create-forum
-RUN npm install https://github.com/bandanasahu123/nodebb-plugin-for-telemetry
+RUN npm install https://github.com/Sunbird-Ed/nodebb-plugin-sunbird-api.git
+RUN npm install https://github.com/Sunbird-Ed/nodebb-plugin-sunbird-telemetry.git
 RUN npm install https://github.com/tusharrajgithub/Azure-Blob-Storage
 
 
